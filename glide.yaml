@@ -1,0 +1,8 @@
+package: servicebus
+import:
+- package: github.com/Azure/azure-sdk-for-go
+  subpackages:
+  - arm/servicebus
+- package: github.com/Azure/go-autorest
+  subpackages:
+  - autorest/azure
